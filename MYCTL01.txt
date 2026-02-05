@@ -1,0 +1,9 @@
+       DEFINE CLUSTER(NAME(TECN106.JCL.ASSMT04.INVNT.KSDS) -
+                TRACK(1,1) -
+                RECORDSIZE(80,80) -
+                VOLUME(ZAPRD4) -
+                CISZ(1024) -
+                KEYS(20,0) -
+                FREESPACE(20,20) -
+                INDEXED)
+
